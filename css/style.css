@@ -1,0 +1,49 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+html, body {
+    position: relative;
+<!-- Also give it a position --> margin: 0;
+    padding: 0;
+    overflow: auto;
+<!-- HERE -->
+}
+
+.nav-bar {
+    color: white;
+}
+
+ul > li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #16ef24;
+}
+
+.log-out:hover {
+    color: #b6b6b6;
+}
+
+/* --- Footer --- */
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background-color: #202020;
+    font-size: 12px;
+}
